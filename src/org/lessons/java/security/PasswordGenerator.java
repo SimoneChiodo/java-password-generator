@@ -9,17 +9,17 @@ public class PasswordGenerator {
     Scanner input = new Scanner(System.in);
 
     // Create and Initialize User Variables
-    System.err.println("Inserisci il tuo nome: ");
+    System.out.println("Inserisci il tuo nome: ");
     String nome = input.nextLine();;
-    System.err.println("Inserisci il tuo cognome: ");
+    System.out.println("Inserisci il tuo cognome: ");
     String cognome = input.nextLine();
-    System.err.println("Inserisci il tuo colore preferito: ");
+    System.out.println("Inserisci il tuo colore preferito: ");
     String colore = input.nextLine();
-    System.err.println("Inserisci il giorno in cui sei nato: ");
+    System.out.println("Inserisci il giorno in cui sei nato: ");
     int giorno = input.nextInt();
-    System.err.println("Inserisci il mese in cui sei nato: ");
+    System.out.println("Inserisci il mese in cui sei nato: ");
     int mese = input.nextInt();
-    System.err.println("Inserisci l'anno in cui sei nato: ");
+    System.out.println("Inserisci l'anno in cui sei nato: ");
     int anno = input.nextInt();
     
 
@@ -27,7 +27,7 @@ public class PasswordGenerator {
     String password = nome + "-" + cognome + "-" + colore + "-" + (giorno+mese+anno);
 
     // Print Password
-    System.err.println("La tua password personalizzata e': \n" + password);
+    System.out.println("La tua password personalizzata e': \n" + password);
   }
 }
 
