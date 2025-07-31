@@ -1,14 +1,17 @@
-## Attività richieste:
+# Esercizio Java: Password Generator
 
-- Create un nuovo progetto java chiamato java-password-generator
-- Aggiungete un package org.lessons.java.security
-- Aggiungete una classe PasswordGenerator che contenga un metodo main
+## Descrizione
 
-## Il programma deve fare quanto segue:
+In questo progetto Java chiamato `java-password-generator`, si deve creare un package `org.lessons.java.security` che contiene una classe `PasswordGenerator`.
 
-- Salvare in opportune variabili il nome, cognome, colore preferito e data di nascita di un utente suddivisa in giorno, mese e anno in numero
-- Generare (e stampare a video) una password concatenando nome, cognome, colore preferito e somma di giorno, mese e anno di nascita, separate dal carattere -
+### Requisiti principali:
 
-### Esempio:
-
-Ho un utente che si chiama Pinco Pallo, nato il 12/05/1994, il cui colore preferito è il magenta. La sua password sarà Pinco-Pallo-magenta-2011
+- Nella classe `PasswordGenerator` deve esserci un metodo `main`.
+- All’interno del metodo `main`:
+  - Salvare in variabili appropriate i dati di un utente: nome, cognome, colore preferito e data di nascita (giorno, mese e anno come numeri separati).
+  - Generare una password concatenando, separate da un trattino `-`:
+    - nome
+    - cognome
+    - colore preferito
+    - somma di giorno + mese + anno di nascita
+  - Stampare la password a video.
